@@ -38,6 +38,12 @@ const PageCavallini = () => {
         la commit con il commento. soluzione 2: si può fare, una volta aperta la
         pull request, cliccando su "squash and merge" e inserendo un commento
       </p>
+      <p>
+        ho eseguito un commit ma mi sono accorto che ho sbagliato a scrivere il
+        messaggio, come posso correggerlo? soluzione: dopo aver fatto la commit
+        con messaggio sbagliato posso fare il comando git commit --amend per
+        riscrivere il messaggio della commit
+      </p>
     </div>
   );
 };
