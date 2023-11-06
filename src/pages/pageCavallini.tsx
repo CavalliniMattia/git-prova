@@ -23,6 +23,14 @@ const PageCavallini = () => {
       <p>sfera ebbasta</p>
       <p>jennifer lawrence</p>
       <p>cristiano ronaldo</p>
+      <p>
+        Esiste un modo per unire tutti questi commit in un unico commit quando
+        si esegue il merge su master? Scrivilo in un tag di testo (e.g. p)
+        all'interno del file pageCavallini.tsx. Si può fare anche con una pull
+        request? soluzione 1: eseguo un "git merge --squash master" e poi eseguo
+        la commit con il commento. soluzione 2: si può fare, una volta aperta la
+        pull request, cliccando su "squash and merge" e inserendo un commento
+      </p>
     </div>
   );
 };
