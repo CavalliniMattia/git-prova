@@ -22,6 +22,7 @@ const PageCavallini = () => {
       </p>
       <p>sfera ebbasta</p>
       <p>jennifer lawrence</p>
+      <p>cristiano ronaldo</p>
     </div>
   );
 };
