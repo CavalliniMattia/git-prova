@@ -1,7 +1,8 @@
+import Logo from "../components/cavallini/Logo";
 const PageCavallini = () => {
   return (
     <div>
-      <h1>Il tuo nome e cognome:</h1>
+      <Logo />
     </div>
   );
 };
