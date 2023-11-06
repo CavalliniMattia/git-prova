@@ -20,6 +20,7 @@ const PageCavallini = () => {
         tutti i "pick" tranne il primo con "s" o "squash" e aggiungo un commento
         per l'unione delle commit
       </p>
+      <p>sfera ebbasta</p>
     </div>
   );
 };
