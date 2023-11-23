@@ -1,3 +1,4 @@
+import CavalliniButton from "../components/cavallini/CavalliniButton";
 import Logo from "../components/cavallini/Logo";
 const PageCavallini = () => {
   return (
@@ -9,6 +10,7 @@ const PageCavallini = () => {
         fatte su master sulla mia branch dedicata? soluzione: faccio un "git
         merge master" così da apportare le modifiche fatte a master sulla mia
         branch di adesso cavallini-init
+      </p>
       <Logo />
       <p>
         dopo aver creato una nuova branch master-copia, ho eseguito un "git
@@ -43,6 +45,16 @@ const PageCavallini = () => {
         messaggio, come posso correggerlo? soluzione: dopo aver fatto la commit
         con messaggio sbagliato posso fare il comando git commit --amend per
         riscrivere il messaggio della commit
+      </p>
+
+      <CavalliniButton />
+      <p>
+        Domanda: esiste un modo per "splittare" in 2 commit diverse la modifica
+        di creazione del file CavalliniButton.tsx e la modifica di aggiunta del
+        componente CavalliniButton al componente pageCavallini? Scrivilo in un
+        tag di testo (e.g. p) all'interno del file pageCavallini.tsx. soluzione:
+        utilizzando un "git add -p e seguendo ciò che viene detto" p.s. avevo
+        già separato le commit senza saperlo, spero vada bene lo stesso
       </p>
     </div>
   );
